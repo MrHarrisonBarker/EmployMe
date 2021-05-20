@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "devLog::1 → Compilin'"
+date: 2020-05-20
+tags:
+  - devLog
+--- 
+Over the past two weeks I've been following a wonderful guide/ series of blog posts by **[Nora Sandler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)** about writing a C compiler. Following these posts has been extremely enjoyable and I think for the most part well written all be it a little old and outdated at this point (started 2017) primarily concerning the complete switch to 64bit architecture as the guide is written for a 32bit system. However with a little googling and patience I interpreted **pun intended* the instructions into a workable format for me running an Intel MacBook Pro 64bit. Working though these problems has persuaded me to take on more lower level projects including whats upcoming and to start to try and write as much as possible resulting in this blog!
+
+Okay two weeks of work in my spare time on this compiler called "CorruptusConscribo" sorry for the shit name, I've consumed all that **Nora Sandler** has to offer with their blog posts and I have a VERY basic C compiler which supports complex expressions, all the big important operators, conditionals, functions, loops and can interface with the compiled standard library. It only supports integers which is a bit of downer but this was only meant as an exercise and opportunity to learn some new shit and I'm legit proud of what it does and it works "correctly"... enough.
+
+So, have I learnt anything? YES! this was such an informative and helpful program to develop. The only assembly code I had written before this was for my electronics A-level, programming a PIC microprocessor about 3 year ago and certainly not full blown x86_64 assembly for a real machine. Writing in assembly and especially converting a real language like C into the stuff was no short of an eye opener and something I would recommend anyone do if they're interested in software development.
+
+I like most have been stuck in the OOP mindset or at least the mindset of any high level language, assembly cuts all that bullshit out of the equation and is simply telling the computer "Hey do this and get this shit from over there" one instruction at a time completely devoid of abstraction (or minimal). Without this abstraction the ideas of objects and variables and conditionals all fall apart into a series of moves, jumps and basic mathematical and logical operators. No inheritance no encapsulation no getters and setters just a big fucking list of instructions. Don't get me wrong this is not a bash at OOP or high level languages I fucking love the stuff give me more as long as it's not JavaScript I want it! I'm just explaining that a lot of a modern programming language is just **language not operation** and I took this for granted before. Maybe this all because I born in year 2000 and not the 70s or 80s where there was only low level languages like C and BASIC, nowadays most peoples first encounter with programming will be the aforementioned shit JavaScript or Python. 
+
+You can 100% be a programmer all your life and never touch assembly or lower level languages thats fine! use what you want thats the most important factor. However if you ever want to learn how your grandpappy did it back in the day writing a C compiler is in my opinion a great fucking idea and fairly straightforward especially if you follow [this](https://norasandler.com/2017/11/29/Write-a-Compiler.html) guide by **Nora Sandler**
+
+## The future 💎
+
+I'm leaving the compiler where it is and will be moving to the next latest and greatest thing which will probably be an implementation of TCP, drawing inspiration from my compiler project for lower level "under the hood" kind of code. In addition to this I want a different language something I've never used before, I was thinking functional but then I was distracted by Ruby's kick ass logo and as the saying goes you should never look a gift horse in the mouth!
+
+Okay I think thats it, if you want to look at my shit compiler code you can see it [here](https://github.com/MrHarrisonBarker/CorruptusConscribo).
+
+> And remember be excellent to each other and party on dudes.
