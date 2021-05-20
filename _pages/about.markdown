@@ -4,29 +4,19 @@ title: About
 permalink: /about/
 ---
 
-**Watery** is a minimalist, bare-bones theme for the popular JAMstack file-based CMS Jekyll that only uses the `<80kb` [**Water.css** framework](https://github.com/kognise/water.css) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
+[]({{site.baseurl}}/assets/logo.png)
 
-I created this because I wasn't able to find an up-to-date starter/skeleton theme for Jekyll. Even the default theme, Minima, uses the large Bootstrap framework.
 
-This project is aimed towards those curious about using Jekyll for the first time, and want to build from as close to scratch as possible. Alternatively, it still has all the features required for creating a hassle-free, informational website or blog in just a few clicks.
+I'm a strongly typed, complied language kinda guy in a lose wishy washy world controlled by the devil himself... JavaScript and all his cronies who don't like curly braces 🐍 and prefer to use a fucking indent to convoy scope and intent, waste of a perfectly good key never to be used again because it "looks better"... it doesn't.
 
-As of November 1st, 2020, with over 100 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
+🔨
 
-### Features
+Tech I'm interested in consists of distributed systems so when my unicorn startup needs to scale to a billion concurrent users overnight it can all run on **BBC Micro** in the back of a shed.
 
-Despite Watery's minimalist nature, there are a few interesting features that have been added:
+Crypto is elusive enough to peak my interest and I've seen some good uses and implementations of it but they seem to be logs of gold shit lost in a endless overflowing torrent of shit ideas and scams there to be found however virtually useless to mere mortals.
 
-- A fully customizable and empty `_BLANK_config.yml` to make getting up-and-running easy.
-- Having a `_pages` collection for easier organization.
-- Auto-generated links to newly created pages in the navigation.
-- An author bio at the end of each post. (Located in `_inclues/author.html`)
-- Full Rouge support for syntax highlighting. (Currently using `base16.solarized.light`)
-- Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
+Communication and social is always interesting as primary function of not just human life but our culture, I honestly can't believe how many times a chat application can be *"reworked"* and *"innovated"* upon to make a fuck load of money! and be acquired by another enormous tech *"company"* that are definitely not monopolistic at all duh they all have *"stories"* (thats a case of tech companies not even bothering to gobble up the competition but everyone just copying **Snapchat** 😢 ). Well at least now (20/05/21) **Signal** and **Telegram** seem to be doing slightly more than fuck all for anti-trust compared to the **FTC**
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is me...
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+> And remember be excellent to each other and party on dudes.

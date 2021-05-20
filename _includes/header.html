@@ -1,6 +1,6 @@
 <header>
     <h1 id="title">
-        <a href="/">{{site.title}}</a>
+      <a href="{{site.url}}{{site.baseurl}}">{{site.title}}</a>
     </h1>
     <p id="description">
         {{site.description}}
@@ -8,7 +8,7 @@
 
     <hr/>
     <nav id="navigation">
-      <a href="/{{site.baseurl}}">Home</a>
+      <a href="{{site.url}}{{site.baseurl}}">Home</a>
         /
         {% for page in site.pages %}
         <a href="{{site.baseurl}}{{ page.url }}">{{page.title}}</a>
