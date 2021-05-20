@@ -8,15 +8,15 @@
 
     <hr/>
     <nav id="navigation">
-        <a href="/">Home</a>
+      <a href="/{{site.baseurl}}">Home</a>
         /
         {% for page in site.pages %}
-            <a href="{{ page.url }}">{{page.title}}</a>
+        <a href="{{site.baseurl}}{{ page.url }}">{{page.title}}</a>
             /
         {% endfor %}
-        <a href="/feed.xml">RSS</a>
+        <a href="{{site.baseurl}}/feed.xml">RSS</a>
         /
-        <a href="">Employ me!</a>
+        <a href="https://www.linkedin.com/in/{{site.linkedin}}">Employ me!</a>
     </nav>
     <hr/>
 </header>
