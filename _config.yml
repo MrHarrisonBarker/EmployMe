@@ -18,7 +18,7 @@ paginate_path: "/:num/"
 #  input: GFM
 #  syntax_highlighter: rouge
 
-google_analytics: G-D31EF164NN
+google_analytics: G-4NMJLTGB2B 
 comments: false
 disqus:
 
