@@ -11,7 +11,7 @@ I'm a strongly typed, complied language kinda guy in a lose wishy washy world co
 
 🔨
 
-Tech I'm interested in consists of distributed systems so when my unicorn startup needs to scale to a billion concurrent users overnight it can all run on **BBC Micro** in the back of a shed.
+Tech I'm interested in consists of distributed systems so when my unicorn startup needs to scale to a billion concurrent users overnight it can all run on a **BBC Micro** in the back of a shed.
 
 Crypto is elusive enough to peak my interest and I've seen some good uses and implementations of it but they seem to be logs of gold shit lost in a endless overflowing torrent of shit ideas and scams there to be found however virtually useless to mere mortals.
 
