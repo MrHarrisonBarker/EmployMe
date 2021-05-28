@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "devLog::2 → Ruby is really really meh'"
+date: 2020-05-28
+tags:
+  - devLog
+---
+
+I lied, last week I said I was going to implement TCP. However after doing some research into the solution I was hit by a brick fucking wall called the kernel who already has its own way of doing TCP making things extremely awkward when I try and take over [explained better](https://www.youtube.com/watch?v=bzja9fQWzdA&t=738s). The linux kernel has a solution for this called TUN/TAP which allows you to send incoming packets to some user space software instead of going through the usual pipeline, this is all fine and dandy but I run macOS and I didn't want to fuck around with running a vm and then dealing with the subsequent bullshit of extra problems stacked on top of each other.
+
+## Ruby 💎
+
+So instead of implementing TCP I decided to go for something much easier. A little HTTP library based on [RF2616](https://datatracker.ietf.org/doc/html/rfc2616) and looking back now I would have hated writing anything complex like TCP in Ruby because even writing this was like death by a thousand cuts. The biggest cut being dynamic typing, I was at first sceptical crawling away from the static comfort of languages like C# and Java but I had high hopes that this was not the lawless land of JavaScript. It wasn't quite as bad but at the end of the day all I want to do is declare a variable or function parameter with a specific type and for the sky to fall down when some dickhead tries to assign a fucking int to a string.
+
+Ruby also just feels weak and small compared to it's contemporaries, some programmers prefer a language that is barebones with little abstraction from assembly but I say fuck that it's 2021 languages should be more advanced with more features allowing developers to create more complex systems easier and quicker. Hey I see the benefit of writing your own solution to a problem but if I can replace that solution using a language feature with minimal performance loss in a fraction of development time plus free support of that feature from the language maintainers then fuck yeah!
+
+Dude it doesn't have enums built-in. Maybe I'm using it wrong or my perspective is warped but even the main principles of OOP seam weirdly implemented. There's nitpicking to be had like the naming conventions feel like they come from a mental asylum. However I can work around that but by far the worst offender of them all is the documentation **it's pure dog shit**. They've managed to write docs that don't fit any purpose: the into and beginner articles are pointlessly shit if I was a new developer trying to learn Ruby as my first language I'm pretty sure I would develop some kind of brain damage. Also the API documentation is so non-existent that the community had to create the "ok" [ruby-doc.org](http://ruby-doc.org) and even then the official [https://www.ruby-lang.org/en/documentation/](https://www.ruby-lang.org/en/documentation/) is so uninviting I'm surprised anyone uses it. Maybe I've been spoilt by the .NET documentation which is comprehensive and easy to read plus I actually like using it usually going there first before consulting with the bible (stack overflow).
+
+The source for my shit http library can be found [here](https://github.com/MrHarrisonBarker/neo.http) don't look at it
+
+## The future 💹
+
+So whats next for me? A couple of years back I had a little play around with F# which is Microsoft's unimaginatively named functional language which is apart of the .NET family, it was an interesting shift in paradigm and thinking but I never made anything and didn't really get to stretch my *leFunctionale* bone. To fix this I'm gonna try out the language named after that guy Haskell which is a purely functional and statically typed language which are all words I'm ok with. 
+
+The next question is what I'm gonna build? Living in London for university and seeing all the jobs available here has inspired me to do something financial which usually pairs quite well with the concepts of functional programming so win win. Right now I'm torn between writing a simple cryptocurrency to do my laundry and something a little more traditional like a stock market order matching engine, now I say that but both of those sound pretty interesting and it might be a question of which first. I'll install and boot up Haskell get to grips and have a play around before deciding.
+
+## Hash #️⃣
+
+[https://usedevbook.com/](https://usedevbook.com/) → Cool documentation and stack overflow search tool (it's pretty early in development but still good)
+
+[https://schleiss.io/plotting-source-code-todos-for-open-source-projects](https://schleiss.io/plotting-source-code-todos-for-open-source-projects) → Some pretty graphs
+
+> And remember be excellent to each other and party on dudes.
